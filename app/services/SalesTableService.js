@@ -424,6 +424,9 @@ var SalesTableService = /** @class */ (function () {
                     j.quantity = parseInt(j.quantity);
                 });
             }
+            else {
+                v.batch = [];
+            }
             v.appliedDiscounts = v.appliedDiscounts ? v.appliedDiscounts : [];
             v.appliedDiscounts.map(function (value) {
                 value.percentage = value.percentage ? parseFloat(value.percentage) : 0;
