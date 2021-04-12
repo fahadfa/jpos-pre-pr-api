@@ -30,8 +30,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                     _.trys.pop(); continue;
             }
             op = body.call(thisArg, _);
-        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
-        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+        } catch (e){ value: op[0] ? op[1] : void 1, done: true };
     }
 };
 var __importStar = (this && this.__importStar) || function (mod) {
